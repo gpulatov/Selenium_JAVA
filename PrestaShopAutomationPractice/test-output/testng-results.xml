@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45353" started-at="2018-12-13T21:25:50Z" finished-at="2018-12-13T21:26:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45353" started-at="2018-12-13T21:25:50Z" finished-at="2018-12-13T21:26:35Z">
+      <class name="com.prestashop.tests.PrestaShopPositiveTests">
+        <test-method status="PASS" signature="wrongCredentials()[pri:0, instance:com.prestashop.tests.PrestaShopPositiveTests@675d3402]" name="wrongCredentials" duration-ms="8069" started-at="2018-12-13T21:26:25Z" finished-at="2018-12-13T21:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentials -->
+      </class> <!-- com.prestashop.tests.PrestaShopPositiveTests -->
+      <class name="com.prestashop.tests.PrestaShopNegativeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="setUp" is-config="true" duration-ms="14354" started-at="2018-12-13T21:25:50Z" finished-at="2018-12-13T21:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PrestaShopPositiveTests@675d3402]" name="setUp" is-config="true" duration-ms="16873" started-at="2018-12-13T21:26:04Z" finished-at="2018-12-13T21:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankEmailTest()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="blankEmailTest" duration-ms="1168" started-at="2018-12-13T21:26:21Z" finished-at="2018-12-13T21:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmailTest -->
+        <test-method status="PASS" signature="blankPasswordTest()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="blankPasswordTest" duration-ms="1155" started-at="2018-12-13T21:26:22Z" finished-at="2018-12-13T21:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPasswordTest -->
+        <test-method status="PASS" signature="invalidEmailTest()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="invalidEmailTest" duration-ms="1029" started-at="2018-12-13T21:26:23Z" finished-at="2018-12-13T21:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailTest -->
+        <test-method status="PASS" signature="wrongCredentials()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="wrongCredentials" duration-ms="1103" started-at="2018-12-13T21:26:24Z" finished-at="2018-12-13T21:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentials -->
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:com.prestashop.tests.PrestaShopNegativeTest@28feb3fa]" name="closeUp" is-config="true" duration-ms="733" started-at="2018-12-13T21:26:33Z" finished-at="2018-12-13T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:com.prestashop.tests.PrestaShopPositiveTests@675d3402]" name="closeUp" is-config="true" duration-ms="829" started-at="2018-12-13T21:26:34Z" finished-at="2018-12-13T21:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+      </class> <!-- com.prestashop.tests.PrestaShopNegativeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
